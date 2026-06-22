@@ -5,11 +5,11 @@ import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 const LEGENDS = [
-  { src: '/images/arnold.png', alt: 'Arnold Schwarzenegger' },
-  { src: '/images/ronnie.png', alt: 'Ronnie Coleman' },
-  { src: '/images/mike.png', alt: 'Mike Mentzer' },
-  { src: '/images/jculter.png', alt: 'Jay Cutler' },
-  { src: '/images/cbam.png', alt: 'Chris Bumstead' },
+  { src: '/images/Arnold.png', alt: 'Arnold Schwarzenegger' },
+  { src: '/images/Ronnie.png', alt: 'Ronnie Coleman' },
+  { src: '/images/Mike.png', alt: 'Mike Mentzer' },
+  { src: '/images/Jculter.png', alt: 'Jay Cutler' },
+  { src: '/images/Cbam.png', alt: 'Chris Bumstead' },
 ] as const
 
 const DISPLAY_MS = 4200
