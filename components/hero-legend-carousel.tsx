@@ -42,7 +42,7 @@ export function HeroLegendCarousel() {
           sizes="100vw"
           className={cn(
             'transition-all ease-in-out brightness-125',
-            'object-cover object-right md:object-contain',
+            'object-contain object-right scale-[1.35] -translate-x-[15%] md:scale-100 md:translate-x-0',
             index === activeIndex ? 'opacity-100' : 'opacity-0'
           )}
           style={{ transitionDuration: `${FADE_MS}ms` }}
