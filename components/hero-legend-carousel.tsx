@@ -41,9 +41,9 @@ export function HeroLegendCarousel() {
           priority={index === 0}
           sizes="100vw"
           className={cn(
-            'object-contain object-right transition-all ease-in-out scale-[1.65] md:scale-100 brightness-125',
-            index === activeIndex ? 'opacity-100' : 'opacity-0',
-            '-translate-x-1/4 md:translate-x-0'
+            'transition-all ease-in-out brightness-125',
+            'object-cover object-center md:object-contain md:object-right',
+            index === activeIndex ? 'opacity-100' : 'opacity-0'
           )}
           style={{ transitionDuration: `${FADE_MS}ms` }}
         />
